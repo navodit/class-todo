@@ -5,7 +5,20 @@ A sample project to practice codeigniter and git with my team
 
 Project Structure
 ------------------
-1. Add codeigniter framework within project
+1. Add codeigniter framework outside application project
+	xampp
+		-->htdocs
+			|->codeigniter
+				|->system
+				|->apps
+					|->class-todo
+	
+	Keep the above structure so that you can work on multiple applications
+	without the need of copying codeigniter files for a new application
+	. Modify the index.php in codeigniter as below 
+	
+	$application_folder = 'apps/class-todo';
+
 2. Add the twiter bootstrap assets inside the application directory
 
 Application Todo (Skeleton)
