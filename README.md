@@ -6,7 +6,7 @@ A sample project to practice codeigniter and git with my team
 Project Structure
 ------------------
 1. Add codeigniter framework outside application project
-<!-- language-all: lang-or-tag-here -->
+<!-- language-all: bash -->
 	xampp
 		-->htdocs
 			|->codeigniter
