@@ -5,7 +5,7 @@ A sample project to practice codeigniter and git with my team
 
 Project Structure
 ------------------
-1. Add codeigniter framework outside application project
+1. Add codeigniter framework outside application project <br>
 <img src="http://farm9.staticflickr.com/8031/8005801808_7e0e711436.jpg" width="389" height="146">
 
 Keep the above structure so that you can work on multiple applications
