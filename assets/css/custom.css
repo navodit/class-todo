@@ -1,0 +1,8 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+
+.table tbody tr:hover td{
+	background-color:#D8DDE8;
+}
