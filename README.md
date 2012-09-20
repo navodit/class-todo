@@ -7,13 +7,12 @@ Project Structure
 ------------------
 1. Add codeigniter framework outside application project
 `
-<!-- language-all: bash -->
-	xampp
-		-->htdocs
-			|->codeigniter
-				|->system
-				|->apps
-					|->class-todo
+	xampp <br>
+		-->htdocs <br>
+			|->codeigniter <br>
+				|->system <br>
+				|->apps <br>
+					|->class-todo <br>
 `
 Keep the above structure so that you can work on multiple applications
 without the need of copying codeigniter files for a new application
