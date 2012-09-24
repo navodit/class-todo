@@ -11,29 +11,31 @@
 <script type="text/jscript" src="../../../assets/js/bootstrap.min.js" >
 </script>
 
+
+
+
 <title>todo</title>
 </head>
 
 <body>
 
-    <div class="row-fluid">
-    <div class="span12">    
-	<form>
- 
-    <label>Label name</label>
-    <input class="input-xxlarge" type="text" placeholder="Some text ">
+   
+    
+    <form method="post" action= "<?php echo (site_url('/todo')) ?>">
+  
+    <label>Name</label>
+    <input class="input-xxlarge" type="text" name="task"  placeholder="Some text " size="50" >
 
-    <span class="help-block">Example block-level help text here.</span>
-    <label class="checkbox">
-    <input type="checkbox"> Check me out
+    <span class="help-block"></span>
     </label>
-    <button type="submit" class="btn">Submit</button>
+    <input type="submit" name="submit" class="btn"></button>
     </form>
-
-</div>
- 
-    </div>
- 
+   
+   <h4>My Todo List</h4>
+   
+        
+   	
+	 	 
 			
 </body>
 </html>
